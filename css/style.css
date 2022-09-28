@@ -20,3 +20,21 @@ header > #logo{
     font-size: 2em;
 }
 
+main{
+    padding: 50px;
+    overflow: hidden;
+}
+
+section{
+    width: 70%;
+    float: left;
+}
+aside{
+    width: 30%;
+    float: right;
+}
+footer{
+    padding: 20px;
+    border-top: 1px solid #7c7373;
+    text-align: center;
+}
