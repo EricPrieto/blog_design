@@ -21,10 +21,16 @@ body{
 
 header{
     padding: 50px;
+    overflow: hidden;
 }
 
 header > #logo{
     font-size: 2em;
+    float: left;
+}
+
+nav{
+    float: right;
 }
 
 main{
@@ -47,12 +53,14 @@ article:last-child{
 aside{
     width: 30%;
     float: right;
-    background-color: #e7f185;
+    background-color: #89f074;
     padding: 10px;
 }
 aside h3{
+    color: #ffffff;
     background-color: #d14444;
     padding: 10px;
+    text-align: center;
 }
 aside a{
     color: black;
