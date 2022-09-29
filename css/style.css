@@ -55,6 +55,8 @@ aside{
     float: right;
     background-color: #89f074;
     padding: 10px;
+    position: sticky;
+    top: 0px;
 }
 aside h3{
     color: #ffffff;
@@ -69,4 +71,5 @@ footer{
     padding: 20px;
     border-top: 1px solid #7c7373;
     text-align: center;
+    
 }
